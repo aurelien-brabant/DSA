@@ -10,6 +10,8 @@ fi
 
 x=$1; y=$2
 
+printf "${x}x${y}\n"
+
 for i in $(seq 1 $y);
 do
 	for i in $(seq 1 $x);
